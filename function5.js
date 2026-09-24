@@ -27,7 +27,7 @@ function calculateDiscount(discount){
     }
     
 } 
-// console.log(calculateDiscount(discount))
+console.log(calculateDiscount(discount))
 // Exercise 3: Print Cart summary
 let finalTotalPrice = calculateDiscount(discount) + (price2 + price3)
 
