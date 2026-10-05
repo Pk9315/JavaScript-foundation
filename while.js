@@ -387,8 +387,80 @@ console.log("========================================")
 // console.log("mallest number greater than 10: ", smallestNumber)
 
 // Find the smallest number greater than 20 that is divisible by 5 using a while loop.
-let i = 21
-while(i % 5 !== 0){
-    i++
-}
-console.log("Smallest Number greater than 20: ", i)
+// let i = 21
+// while(i % 5 !== 0){
+//     i++
+// }
+// console.log("Smallest Number greater than 20: ", i)
+
+
+// For-of loop
+// const students = [
+//   {
+//     name: "Rahul",
+//     age: 20,
+//     course: "BCA",
+//     marks: 85
+//   },
+//   {
+//     name: "Aman",
+//     age: 21,
+//     course: "BCA",
+//     marks: 72
+//   },
+//   {
+//     name: "Priya",
+//     age: 19,
+//     course: "BCA",
+//     marks: 91
+//   },
+//   {
+//     name: "Neha",
+//     age: 22,
+//     course: "BCA",
+//     marks: 68
+//   }
+// ];
+
+// for(let student of students){
+//     if(student.marks > 80){
+//         console.log(student.name)
+//     }
+// }
+
+// Find the smallest number greater than 30 that is divisible by 7, using a while loop.
+// let i = 31
+// while(i % 7 !== 0){
+//   i++
+// }
+// console.log("smallest number greater than 30: ", i)
+
+// Find the largest number less than 50 that is divisible by 6, using a while loop.
+// let i = 49
+// while(i % 6 !== 0){
+//   i--
+// }
+// console.log("largest number less than 50: ", i)
+
+// Find the largest odd number less than 40 using a while loop.
+// let i = 36
+// while(i % 2 === 0){
+//   i--
+
+// }
+// console.log(i)
+
+// Find the smallest even number greater than 20 using a while loop.
+// let i = 21
+// while(i % 2 !== 0){
+//   i++
+// }
+// console.log("smallest even number greater than 20: ", i)
+
+// Find the smallest number greater than 20 that is even and divisible by 3, using a while loop.
+
+    let i = 21
+    while(i % 2 !== 0 || i % 3 !== 0){
+      i++
+    }
+    console.log(i)
