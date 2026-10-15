@@ -459,8 +459,31 @@ console.log("========================================")
 
 // Find the smallest number greater than 20 that is even and divisible by 3, using a while loop.
 
-    let i = 21
-    while(i % 2 !== 0 || i % 3 !== 0){
-      i++
+    // let i = 21
+    // while(i % 2 !== 0 || i % 3 !== 0){
+    //   i++
+    // }
+    // console.log(i)
+
+
+// Find the largest even number between 1 and 20 using a while loop.
+// let i = 1
+// let largestNumber = 0
+// while(i <= 20){
+//     if(i % 2 === 0){
+//        if(i > largestNumber){
+//         largestNumber = i
+//        }
+//     }
+//     i++
+// }
+// console.log(largestNumber)
+
+// Find the largest even number between 1 and 20 using a while loop and break.
+let i = 20
+while(i >= 1){
+    if(i % 2 === 0){
+        console.log(i)
+        break
     }
-    console.log(i)
+}
