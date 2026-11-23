@@ -66,8 +66,8 @@ for(let i = 0; i < studentDetails.length; i++){
 }
 
 for(let i = 0; i < studentDetails.length; i++){
-    let numberOfStudent = 5
-    let avgMarks = studentDetails[i].totalMarks/numberOfStudent
+    let numberOfSubject = 5
+    let avgMarks = studentDetails[i].totalMarks/numberOfSubject
     
     studentDetails[i].avgMarks = avgMarks
     console.log(studentDetails[i])
